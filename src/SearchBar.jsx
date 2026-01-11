@@ -2,12 +2,12 @@ import React from "react";
 
 function SearchBar() {
   return (
-    <div className="flex w-[350px] sm:w-[100px] lg:w-[1030px]">
+    <div className="flex w-[280px] sm:w-[80px] lg:w-[824px]">
       <div className="relative">
         <select
         className="
-          h-12
-          pl-2 pr-6
+          h-10
+          pl-2 pr-5
           bg-gray-100
           border
           border-r-0
@@ -42,11 +42,11 @@ function SearchBar() {
       <input
         type="text"
         placeholder="Search Amazon"
-        className="flex-1 h-12 px-3 bg-white outline-none border border-r-0 border-l-0 text-sm border-[#2D3C59]"
+        className="flex-1 h-10 px-2 bg-white outline-none border border-r-0 border-l-0 text-sm border-[#2D3C59]"
       />
 
       <button
-        className="h-12 px-6 bg-yellow-400 border border-l-0 rounded-r-md text-base font-medium border-[#2D3C59] text-[#2D3C59]"
+        className="h-10 px-5 bg-yellow-400 border border-l-0 rounded-r-md text-base font-medium border-[#2D3C59] text-[#2D3C59]"
       >
         Search
       </button>

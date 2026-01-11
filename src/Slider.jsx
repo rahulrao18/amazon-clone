@@ -25,7 +25,7 @@ function Carousel() {
           "--swiper-pagination-color": "#fff",
           "--swiper-navigation-top-offset": "20%",
         }}
-        className="w-full h-170"
+        className="w-full h-136"
       >
         {slides.map((bg, index) => (
           <SwiperSlide key={index} className={`relative ${bg}`}>
