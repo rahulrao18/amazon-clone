@@ -41,7 +41,7 @@ function SearchBar() {
 
       <input
         type="text"
-        placeholder="Search Ramazon"
+        placeholder="Search Amazon"
         className="flex-1 h-12 px-3 bg-white outline-none border border-r-0 border-l-0 text-sm border-[#2D3C59]"
       />
 
