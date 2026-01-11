@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar() {
   return (
-    <div className="flex w-[280px] sm:w-[80px] lg:w-[824px]">
+    <div className="flex w-[280px] sm:w-[80px] lg:w-[724px]">
       <div className="relative">
         <select
         className="
